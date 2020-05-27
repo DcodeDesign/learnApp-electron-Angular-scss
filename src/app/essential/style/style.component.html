@@ -1,0 +1,8 @@
+<h2>Directives d'attribut  </h2>
+<h3>ngStyle, ngClass</h3>
+<h4>Exemple :</h4>
+<div [ngClass]="{'highlighted': color}">Directive</div>
+<br />
+<div *ngFor="let item of items;let i=index;" [ngClass]="{'highlighted': i % 2 === 0}">
+  {{ i }} hello {{ item }}
+</div>

@@ -1,0 +1,27 @@
+
+<input [(ngModel)]="userInput" />
+
+<p>Copy text : {{ userInput }}</p>
+
+<hr />
+
+<input [formControl]="userInputC" />
+
+<p>Copy text : {{ userInputC.value }}</p>
+
+<hr />
+
+<form [formGroup]="userForm" >
+  <div>
+    <input formControlName="name" >
+  </div>
+
+  <div>
+    <input formControlName="email">
+  </div>
+
+  <div>
+    <button (click)="showForm()">Envoyer</button>
+  </div>
+
+</form>

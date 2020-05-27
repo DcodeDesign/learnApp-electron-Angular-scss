@@ -1,0 +1,22 @@
+
+<pre>
+  <code >
+    import ( HttpClientModule ) from '@angular/common/http';
+  </code>
+</pre>
+
+<h4>
+  Utilisation : Swiss public transport API : <a href="https://transport.opendata.ch/docs.html" target="_blank">Transport API</a>
+</h4>
+
+
+<div class="ui styled accordion api">
+  <div class="title active">
+    <i class="dropdown icon"></i>
+    GET http://transport.opendata.ch/v1/connections?from=Lausanne&to=Genève
+  </div>
+  <div class="content active">
+    {{ trainData | json }}
+  </div>
+</div>
+

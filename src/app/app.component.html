@@ -1,0 +1,43 @@
+
+<div class="header ui inverted vertical masthead center aligned segment">
+
+  <div class="ui text container">
+    <h1 class="ui inverted header">
+      ANGULAR 8 : Essential, Template
+    </h1>
+  </div>
+</div>
+
+<div class="ui container">
+
+  <div>
+    <app-navigation></app-navigation>
+  </div>
+
+  <div class="ui relaxed divided items">
+    <div class="item">
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="ui vertical masthead center aligned segment footer">
+
+  <div class="ui text container">
+      <a href="https://www.angularchef.com">angularchef.com</a> |
+      <a href="https://www.linkedin.com/learning/">linkedin.com/learning</a>
+  </div>
+</div>
+<script>
+  const alertOnlineStatus = () => {
+    window.alert(navigator.onLine ? 'online' : 'offline')
+  }
+
+  window.addEventListener('online',  alertOnlineStatus)
+  window.addEventListener('offline',  alertOnlineStatus)
+
+  alertOnlineStatus()
+</script>

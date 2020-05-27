@@ -1,0 +1,21 @@
+<h2>L’interpolation</h2>
+
+<h5>L’interpolation est une syntaxe qu’on peut utiliser dans un template de composant Angular et qui permet d’afficher du texte dynamiquement.</h5>
+
+<div>
+  <h3>Mise en pratique (Voir code) :</h3>
+  <div>
+    <p>
+      Le temps est {{ weather }}.
+      Le temps est {{ obj.weather }}.
+    </p>
+
+    <p>
+      Le temps est {{ getWeather() }}.
+    </p>
+
+    <p>
+      Le temps est {{ temp > 30 ? 'chaud' : 'ok' }}.
+    </p>
+  </div>
+</div>

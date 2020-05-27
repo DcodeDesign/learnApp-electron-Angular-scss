@@ -1,0 +1,41 @@
+<div class="ui primary pointing menu">
+  <a class="item" routerLink="essential" routerLinkActive="active">
+    Essential
+  </a>
+  <a class="item" routerLink="template" routerLinkActive="active">
+    Template
+  </a>
+</div>
+
+<div class="ui secondary pointing menu" *ngIf="MenuSelected == 'essential'">
+  <a class="item" routerLink="essential/variable" routerLinkActive="active">
+    L'interpolation
+  </a>
+  <a class="item" routerLink="essential/evenements" routerLinkActive="active">
+    Evenement
+  </a>
+  <a class="item" routerLink="essential/style" routerLinkActive="active">
+    Style
+  </a>
+  <a class="item" routerLink="essential/directives" routerLinkActive="active">
+    Directives
+  </a>
+  <a class="item" routerLink="essential/pipes" routerLinkActive="active">
+    Pipes
+  </a>
+  <a class="item" routerLink="essential/formulaire" routerLinkActive="active">
+    Formulaire
+  </a>
+  <a class="item" routerLink="essential/date" routerLinkActive="active">
+    Service
+  </a>
+  <a class="item" routerLink="essential/transport-api" routerLinkActive="active">
+    API
+  </a>
+</div>
+
+<div id="template" class="ui secondary pointing menu" *ngIf="MenuSelected == 'template'">
+  <!--<a class="item" routerLink="template/menu" routerLinkActive="active">
+    menu
+  </a>-->
+</div>

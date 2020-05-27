@@ -1,0 +1,69 @@
+
+<h1> 1. Init Projet Angular :</h1>
+
+<h3> 1.1 NodeJs</h3>
+
+<h5>Runtime JavaScript basé sur le moteur JavaScript V8 de Chrome.</h5>
+
+<p>Download : <a href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
+
+<pre>
+  <code>
+    > node -v
+  </code>
+</pre>
+
+<h3>1.2 NPM</h3>
+
+<h5>Gestionnaire de packages Node</h5>
+
+<p>SiteWeb : <a href="https://www.npmjs.com/" >npmjs.com</a></p>
+
+<pre>
+  <code>
+  > sudo npm install npm -g
+  > npm -v
+  </code>
+</pre>
+
+<h3> 1.3 Angular CLI</h3>
+
+
+<h5>interface de ligne de commande pour Angular</h5>
+
+<pre>
+  <code>
+    > npm install -g @angular/cli
+  </code>
+</pre>
+
+<h3> 1.4 Create Angular projet</h3>
+
+<pre>
+  <code>
+  > ng new [nameProjet]
+  > cd firstApp
+  > ng serve
+  </code>
+</pre>
+
+<p>ng serve ~> compile le projet et démarre un serveur de développement http://localhost/4200</p>
+
+<h1> 2. Description Folders & Files Angular</h1>
+
+<h3> 2.1 Folders</h3>
+<ul class="ui list">
+  <li> **src** ~> dossier regroupant l'enssemble des fichier des l'application</li>
+  <li> **assets** ~> on y trouve les images, css, js additionnel</li>
+  <li> node_modules ~> dossier regroupant les dépendances du projet</li>
+  <li> e2e ~> permet l'execution de test</li>
+</ul>
+<h3> 2.2 Files</h3>
+<ul class="ui list">
+  <li> index.html ~> point d'entrée de l'application</li>
+  <li> main.js ~> point entrée pour le typeScript</li>
+  <li> style.css ~> style global à l'application</li>
+  <li> package.json ~> liste les dépendances utilisés dans le projet</li>
+  <li> package-lock.json ~> liste les dépendances utilisés dans le projet avec leurs versions exactes</li>
+  <li> angular.json ~> fichier de configuration d'angular et à la CLI</li>
+</ul>

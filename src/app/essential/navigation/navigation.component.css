@@ -1,0 +1,11 @@
+:host .menu {
+  margin-top: 15px;
+}
+:host .show-menu {
+  display: flex;
+}
+:host .hide-menu {
+  display: none;
+}
+
+/*# sourceMappingURL=navigation.component.css.map */
